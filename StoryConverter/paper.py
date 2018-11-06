@@ -2,7 +2,7 @@ import nltk
 
 from preprocessdata import preprocessdata
 
-file = open("./Data/Train/sleepingBeauty.txt", "r")
+file = open("./Data/Train/uglyDuckling.txt", "r")
 f = open("./Data/Output/out.txt", "w")
 s = file.read()
 story = nltk.sent_tokenize(s)
