@@ -2,7 +2,7 @@ import nltk
 
 from preprocessdata import preprocessdata
 
-file = open("./Data/Train/uglyDuckling.txt", "r")
+file = open("./Data/Train/theThreeBears.txt", "r")
 f = open("./Data/Output/out.txt", "w")
 s = file.read()
 story = nltk.sent_tokenize(s)
@@ -28,7 +28,7 @@ for sent in story:
             vocab.append(word)
     rank.append(len(vocab) - temp)
     if len(vocab) - temp != 0:
-        f.write("\n\n\n--------------------NEW SCENE-------------------------\n\n\n")
+        f.write("\n\n")
     f.write(sent + "\n")
 f.close()
 file.close()

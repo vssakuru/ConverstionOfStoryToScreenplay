@@ -1,7 +1,7 @@
 from nltk.tokenize import TextTilingTokenizer
 
-file = open("./Data/Train/sleepingBeauty.txt", "r")
-f = open("./Data/Output/textTilingOutput.txt", "w")
+file = open("./Data/Train/theGooseGirl.txt", "r")
+f = open("./Data/Output/textTilingOutput1.txt", "w")
 s = file.read()
 
 ttt = TextTilingTokenizer(20, 10, 0, None, [0], 2, 1, 1, False)
