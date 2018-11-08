@@ -22,15 +22,15 @@ def processStoryText(fileName):
             #print(line)
             if line in ['\n', '\r\n']:
                 story+="\n\n"
-                print(story)
+                #print(story)
             else:
                 line = line.replace('\n', ' ').replace('\r', '')
                 story+=" "+line
-                print("not empty"+story)
+                #print("not empty"+story)
 
-    print(story)
+    #print(story)
     return story
 
 
 f = open("./Data/Output/processedStory.txt", "w")
-f.write(processStoryText("./Data/Train/beautyAndTheBeast.txt"))
+f.write(processStoryText("./Data/Train/sinbad.txt"))
