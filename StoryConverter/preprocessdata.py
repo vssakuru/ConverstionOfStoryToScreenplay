@@ -1,5 +1,10 @@
 import nltk
+import re
 
+def removePunctuations(cleanText):
+    cleanText = re.sub(r'[?;!$:+*",\']*','',cleanText) #remove punctuations
+    cleanText = re.sub(r'[./()\-=_]',' ',cleanText)
+    return cleanText
 
 def preprocessdata(story):
     story = nltk.word_tokenize(story)
