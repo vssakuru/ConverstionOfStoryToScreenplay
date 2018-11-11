@@ -1,6 +1,6 @@
 from nltk.tokenize import TextTilingTokenizer
 
-file = open("./Data/Train/theGooseGirl.txt", "r")
+file = open("./Data/Train/aladinAndTheMagicLamp.txt", "r")
 f = open("./Data/Output/textTilingOutput1.txt", "w")
 s = file.read()
 
