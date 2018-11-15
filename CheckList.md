@@ -12,3 +12,8 @@
   = Get final scene 
   
   
+  
+  REFERENCES:
+  
+  1. Detecting events in narrative: https://ieeexplore.ieee.org/document/6185289
+  
