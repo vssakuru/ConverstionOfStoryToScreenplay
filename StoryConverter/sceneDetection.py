@@ -22,7 +22,7 @@ def startsWith(token):
                 return True
     return False
 
-#startsWith("One day they made the porridge for their breakfast, and poured it into their porridge-pots, and then went out in the wood for a walk while the porridge for their breakfast was cooling. And while they were out walking, a little Old Woman came to the house in the wood and peeped inside.")
+# startsWith("One day they made the porridge for their breakfast, and poured it into their porridge-pots, and then went out in the wood for a walk while the porridge for their breakfast was cooling. And while they were out walking, a little Old Woman came to the house in the wood and peeped inside.")
 
 paragraphTokens = tokenizaParagraphs("./Data/Train/adventuresOfTomThumb.txt")
 
