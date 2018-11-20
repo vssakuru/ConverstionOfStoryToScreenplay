@@ -23,14 +23,16 @@ def startsWith(token):
     return False
 
 
-paragraphTokens = tokenizaParagraphs("./Data/Train/adventuresOfTomThumb.txt")
+paragraphTokens = tokenizeParagraphs("./Data/Train/adventuresOfTomThumb.txt")
 
 
 ##detecting entities for each paragraph
+## listER = getEntities(paragraphTokens)
+
 listER = []
 for i in range(0,len(paragraphTokens)):
     #....detect character ... location and time as string
-    character = ['a','b','c']
+    character = ['a','b','c'] ## call method to detect character in the paragraph
     location = 'palace'
     time = 'day'
     dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
@@ -57,6 +59,8 @@ for i in range(0,len(paragraphTokens)):
         scenes.append(scene)
         scene = token
         #print(scene)
+    #elif change in Entity from paragraphToken[i]
+        ##do the changes
     else:
         scene=scene+token
         #print(scene)
