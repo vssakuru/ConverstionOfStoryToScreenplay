@@ -1,6 +1,8 @@
-import preprocessdata as dp
+import glob
+import os
 
-def tokenizaParagraphs(fileName):
+
+def tokenizeParagraphs(fileName):
     paragraphTokens = []
     with open(fileName) as f:
         for line in f:
@@ -13,7 +15,7 @@ def tokenizaParagraphs(fileName):
 def startsWith(token):
     #token = dp.removePunctuations(token)
     #print(token)
-    with open("./SceneTransitionLexicon.txt") as lexicon:
+    with open("./Lexicon/SceneTransitionLexicon.txt") as lexicon:
         for line in lexicon:
             #print(line)
             line = line.replace('\n', '').replace('\r', '')
@@ -22,54 +24,57 @@ def startsWith(token):
                 return True
     return False
 
-
-paragraphTokens = tokenizeParagraphs("./Data/Train/adventuresOfTomThumb.txt")
-
-
-##detecting entities for each paragraph
-## listER = getEntities(paragraphTokens)
-
-listER = []
-for i in range(0,len(paragraphTokens)):
-    #....detect character ... location and time as string
-    character = ['a','b','c'] ## call method to detect character in the paragraph
-    location = 'palace'
-    time = 'day'
-    dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
-    listER.append(dict)
-
-for i in range(0,len(listER)):
-    print(listER[i]['paragraphText'])
-    print(listER[i]['character'])
-    print(listER[i]['location'])
-    print(listER[i]['time'])
-    print("\n\n")
+path = './Data/Train/*.txt'
+files=glob.glob(path)
+for file in files:
+    paragraphTokens = tokenizeParagraphs(file)
 
 
+    ##detecting entities for each paragraph
+    ## listER = getEntities(paragraphTokens)
 
-##Using lexicon to detect scenes
-scenes = []
-scene = ""
-for i in range(0,len(paragraphTokens)):
-    token = paragraphTokens[i]
-    if i==0:
-        scene = token
-        #print(scene)
-    elif startsWith(token):
-        scenes.append(scene)
-        scene = token
-        #print(scene)
-    #elif change in Entity from paragraphToken[i]
-        ##do the changes
-    else:
-        scene=scene+token
-        #print(scene)
+    listER = []
+    for i in range(0,len(paragraphTokens)):
+        #....detect character ... location and time as string
+        character = ['a','b','c'] ## call method to detect character in the paragraph
+        location = 'palace'
+        time = 'day'
+        dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
+        listER.append(dict)
 
-scenes.append(scene)
+    for i in range(0,len(listER)):
+        print(listER[i]['paragraphText'])
+        print(listER[i]['character'])
+        print(listER[i]['location'])
+        print(listER[i]['time'])
+        print("\n\n")
 
-#print(scenes)
 
-f = open("./Data/Output/out.txt", "w")
-for scene in scenes:
-    f.write("\n----SCENE----\n")
-    f.write(scene)
+
+    ##Using lexicon to detect scenes
+    scenes = []
+    scene = ""
+    for i in range(0,len(paragraphTokens)):
+        token = paragraphTokens[i]
+        if i==0:
+            scene = token
+            #print(scene)
+        elif startsWith(token):
+            scenes.append(scene)
+            scene = token
+            #print(scene)
+        #elif change in Entity from paragraphToken[i]
+            ##do the changes
+        else:
+            scene=scene+token
+            #print(scene)
+
+    scenes.append(scene)
+
+
+    ##Print output of scenes to the file
+    head, tail = os.path.split(file)
+    f = open("./Data/Output/SceneDetector/"+tail, "w")
+    for scene in scenes:
+        f.write("\n----SCENE----\n")
+        f.write(scene)

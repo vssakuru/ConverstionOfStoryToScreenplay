@@ -1,14 +1,21 @@
 from nltk.tokenize import TextTilingTokenizer
+import glob
+import os
 
-file = open("./Data/Train/aladinAndTheMagicLamp.txt", "r")
-f = open("./Data/Output/textTilingOutput1.txt", "w")
-s = file.read()
+path = './Data/Train/*.txt'
+files=glob.glob(path)
+for name in files:
 
-ttt = TextTilingTokenizer(20, 10, 0, None, [0], 2, 1, 1, False)
+    with open(name) as file:
+        head, tail = os.path.split(name)
+        f = open("./Data/Output/TextTiling/"+tail, "w")
+        s = file.read()
 
-tokens = ttt.tokenize(s)
-for token in tokens:
-    #paragraph = token.replace("\n", " ")
-    f.write("\n\n---SCENE----\n\n")
-    f.write(token)
-    f.write("\n")
+        ttt = TextTilingTokenizer(20, 10, 0, None, [0], 2, 1, 1, False)
+
+        tokens = ttt.tokenize(s)
+        for token in tokens:
+            #paragraph = token.replace("\n", " ")
+            f.write("\n\n---SCENE----\n\n")
+            f.write(token)
+            f.write("\n")
