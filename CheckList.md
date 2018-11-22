@@ -9,7 +9,7 @@
   - Slots for each paragraph - 
       - data structure - research pandas or sql
       - er character, time & location 
-  = Get final scene 
+  - Get final scene 
   
   
   
