@@ -1,5 +1,5 @@
 from stanfordcorenlp import StanfordCoreNLP
-from nltk import sent_tokenize
+from nltk import sent_tokenize, Tree
 from nltk import pos_tag
 from nltk import word_tokenize
 
@@ -11,8 +11,15 @@ def nameentityrecognision(ner):
         elif tuple[1] == 'TIME' or tuple[1] == 'DATE' or tuple[1] == 'SET' or tuple[1] == 'DURATION':
             TIME.append(tuple[0])
 
+def locationrecognision(para):
+    for words in para:
+        if type(words) == Tree:
+            for i in range(0, len(words)):
+                if words.label() == 'GPE':
+                    LOCA.append(words[0][0])
 
-fstory = open("/home/sai/Desktop/git/SNLP-Proj/ConverstionOfStoryToScreenplay/StoryConverter/Data/Train/cinderella.txt")
+
+fstory = open("/home/sai/Desktop/git/SNLP-Proj/ConverstionOfStoryToScreenplay/StoryConverter/Data/Train/sleepingBeauty.txt")
 story = fstory.read()
 
 sentences = sent_tokenize(story)
@@ -32,33 +39,14 @@ for sent in sentences:
         index -= 1
     else:
         ner = nlp.ner(para)
-        print(nlp.coref(para))
         nameentityrecognision(ner)
+        locationrecognision(para)
         para = " "
         index = 10
 ner = nlp.ner(para)
 nameentityrecognision(ner)
+locationrecognision(para)
+
 print(NAME)
 print(TIME)
-
-
-# Coref for each paragraph
-# for sent in sentences:
-#     if index > 0:
-#         para += sent
-#         index -= 1
-#     else:
-#         coref = nlp.coref(para)
-#         print(coref)
-#         para = " "
-#         index = 10
-# ner = nlp.ner(para)
-# nameentityrecognision(ner)
-# print(NAME)
-# print(TIME)
-# words = word_tokenize(story)
-# pos = pos_tag(words)
-# for p in pos:
-#     if p[1] == 'PRP' or p[1] == 'PRP$':
-#         PRNN.append(p[0])
-# print(PRNN)
+print(LOCA)
