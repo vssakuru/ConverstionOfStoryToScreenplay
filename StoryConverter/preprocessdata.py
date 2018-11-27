@@ -38,4 +38,4 @@ def processStoryText(fileName):
 
 
 f = open("./Data/Output/processedStory.txt", "w")
-f.write(processStoryText("./Data/Train/sinbad.txt"))
+f.write(processStoryText("./Data/Test/storyOfBlueBeard.txt"))
