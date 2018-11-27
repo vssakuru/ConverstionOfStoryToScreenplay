@@ -1,5 +1,7 @@
+SCENE 1:
 Once upon a time there lived a little girl, who was so sweet and pretty and good that everybody loved her. Her old grandmother, who was very fond of her, made her a little red cloak and hood, which suited her so well that everyone called her "Little Red Riding-Hood."
 
+SCENE 2:
 One day, Little Red Riding-Hood's mother told her to take a basket with some butter and eggs and fresh-baked cake to her grandmother, who was ill. The little girl, who was always willing and obliging, ran at once to fetch her red cloak, and, taking her basket, set out on her journey.
 
 On her way she met a wolf, who wished very much to eat her up; but who dared not do so because some wood-cutters were working close by. So he only said: "Good-morning, Little Red Riding-Hood; where are you off to so early?"
@@ -14,6 +16,7 @@ Little Red Riding-Hood, who did not know how dangerous it was to talk to a wolf,
 
 Presently Red Riding-Hood stopped to gather a nosegay of wild flowers for her grandmother, and the wolf, who had thought of a plan to get the little girl for his dinner, said "Good morning," and trotted away.
 
+SCENE 3:
 As soon as he was out of sight, he began to run as fast as he could. In a short time he reached the grandmother's cottage and knocked at the door.
 
 "Who is there?" asked the old grandmother, as she lay in bed.
@@ -23,6 +26,8 @@ As soon as he was out of sight, he began to run as fast as he could. In a short 
 "Pull the bobbin and the latch will go up," said the old grandmother. So the wolf pulled the bobbin and opened the door, and sprang upon the poor old grandmother and ate her all up in a twinkling.
 
 Then he put on her night-cap and got into bed, and lay down to wait for Red Riding-Hood.
+
+SCENE 4:
 
 Very soon there came a little soft tap at the door.
 
@@ -56,4 +61,5 @@ Then the wolf called out, disguising his voice as much as he could: "Pull the bo
 
 "The better to eat you with," roared the wolf, suddenly jumping out of bed. He seized hold of poor Little Red Riding-Hood, and was just about to eat her up, when there was a great noise outside, and the door burst open and in rushed the wood-cutters, who had seen the wolf talking to the little girl in the wood, and came to see what mischief he was up to.
 
+SCENE 5:
 They killed the wicked wolf quite dead; and so Little Red Riding-Hood was saved, and ran home to tell her mother all about her terrible adventure.
