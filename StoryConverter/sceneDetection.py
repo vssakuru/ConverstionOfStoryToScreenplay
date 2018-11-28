@@ -1,5 +1,6 @@
 import glob
 import os
+import nerCoref
 
 
 def tokenizeParagraphs(fileName):
@@ -24,7 +25,7 @@ def startsWith(token):
                 return True
     return False
 
-path = './Data/Train/*.txt'
+path = './Data/Train/aladinAndTheMagicLamp.txt'
 files=glob.glob(path)
 storyList = []
 
@@ -33,15 +34,16 @@ for file in files:
     dict={'file':file, 'pTokens':paragraphTokens}
     storyList.append(dict)
 
-#erStory = getEntities(storyList)
 
-for story in storyList:
+erStory = nerCoref.getentity(storyList)
+
+for story in erStory:
     paragraphTokens = story['pTokens']
 
     ##detecting entities for each paragraph
     ## listER = getEntities(paragraphTok ens)
 
-    listER = []
+    listER = story['Entities']
   #  for i in range(0,5):
   #      #....detect character ... location and time as string
   #      character = ['a','b','c'] ## call method to detect character in the paragraph
@@ -72,6 +74,9 @@ for story in storyList:
     scene = ""
     for i in range(0,len(paragraphTokens)):
         token = paragraphTokens[i]
+        print('i='+str(i))
+        print(paragraphTokens[i])
+        print(listER[i])
         if i==0:
             scene = token
             #print(scene)
@@ -79,9 +84,11 @@ for story in storyList:
             scenes.append(scene)
             scene = token
             #print(scene)
-        #elif listER[i]['location']!=listER[i-1]['location'] or listER[i]['time']!=listER[i-1]['time']:
-          #  scenes.append(scene)
-          #  scene = token
+        elif token.startswith("\""):
+            scene=scene+token
+        elif listER[i]['LOCATION']!=listER[i-1]['LOCATION'] or listER[i]['TIME']!=listER[i-1]['TIME'] and listER[i]['TIME']!='UNK':
+            scenes.append(scene)
+            scene = token
         else:
             scene=scene+token
             #print(scene)
