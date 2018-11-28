@@ -26,28 +26,44 @@ def startsWith(token):
 
 path = './Data/Train/*.txt'
 files=glob.glob(path)
+storyList = []
+
 for file in files:
     paragraphTokens = tokenizeParagraphs(file)
+    dict={'file':file, 'pTokens':paragraphTokens}
+    storyList.append(dict)
 
+#erStory = getEntities(storyList)
+
+for story in storyList:
+    paragraphTokens = story['pTokens']
 
     ##detecting entities for each paragraph
-    ## listER = getEntities(paragraphTokens)
+    ## listER = getEntities(paragraphTok ens)
 
     listER = []
-    for i in range(0,len(paragraphTokens)):
-        #....detect character ... location and time as string
-        character = ['a','b','c'] ## call method to detect character in the paragraph
-        location = 'palace'
-        time = 'day'
-        dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
-        listER.append(dict)
+  #  for i in range(0,5):
+  #      #....detect character ... location and time as string
+  #      character = ['a','b','c'] ## call method to detect character in the paragraph
+  #      location = 'village'
+  #      time = 'day'
+  #      dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
+  #      listER.append(dict)
 
-    for i in range(0,len(listER)):
-        print(listER[i]['paragraphText'])
-        print(listER[i]['character'])
-        print(listER[i]['location'])
-        print(listER[i]['time'])
-        print("\n\n")
+  #  for i in range(5,len(paragraphTokens)):
+  #      #....detect character ... location and time as string
+  #      character = ['a','b','c'] ## call method to detect character in the paragraph
+  #      location = 'palace'
+  #      time = 'day'
+  #      dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
+  #      listER.append(dict)
+
+  #  for i in range(0,len(listER)):
+  #      print(listER[i]['paragraphText'])
+  #      print(listER[i]['character'])
+  #      print(listER[i]['location'])
+  #      print(listER[i]['time'])
+  #      print("\n\n")
 
 
 
@@ -63,8 +79,9 @@ for file in files:
             scenes.append(scene)
             scene = token
             #print(scene)
-        #elif change in Entity from paragraphToken[i]
-            ##do the changes
+        #elif listER[i]['location']!=listER[i-1]['location'] or listER[i]['time']!=listER[i-1]['time']:
+          #  scenes.append(scene)
+          #  scene = token
         else:
             scene=scene+token
             #print(scene)
@@ -73,7 +90,7 @@ for file in files:
 
 
     ##Print output of scenes to the file
-    head, tail = os.path.split(file)
+    head, tail = os.path.split(story['file'])
     f = open("./Data/Output/SceneDetector/"+tail, "w")
     for scene in scenes:
         f.write("\n----SCENE----\n")
