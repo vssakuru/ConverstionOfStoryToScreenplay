@@ -1,5 +1,5 @@
 from stanfordcorenlp import StanfordCoreNLP
-from nltk import Tree
+from nltk import ne_chunk, Tree
 from nltk import pos_tag
 from nltk import word_tokenize
 
@@ -18,7 +18,10 @@ def nameentityrecognision(ner, dict):
 
 def locationrecognision(para, dict):
     dict.update({'LOCATION': 'UNK'})
-    for words in para:
+    p = word_tokenize(para)
+    p = pos_tag(p)
+    p = ne_chunk(p)
+    for words in p:
         if type(words) == Tree:
             for i in range(0, len(words)):
                 if words.label() == 'GPE':
