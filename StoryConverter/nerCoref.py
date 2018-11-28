@@ -19,11 +19,13 @@ def locationrecognision(para):
                     LOCA.append(words[0][0])
 
 
-fstory = open("/home/sai/Desktop/git/SNLP-Proj/ConverstionOfStoryToScreenplay/StoryConverter/Data/Train/sleepingBeauty.txt")
+fstory = open("./Data/Train/sleepingBeauty.txt")
 story = fstory.read()
 
 sentences = sent_tokenize(story)
-nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+#nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+nlp = StanfordCoreNLP(r'/Users/unaizafaiz/Documents/UIC/Spring2017/NLP/StandfordNLP/stanford-corenlp-full-2017-06-09', quiet=True, timeout=100000)
+
 
 index = 10
 para = " "
