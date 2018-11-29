@@ -1,46 +1,23 @@
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk import Tree
-from nltk import ne_chunk
-from nltk import RegexpParser
+import glob
+from stanfordcorenlp import StanfordCoreNLP
 
-file = open("./Data/Train/sinbad.txt", "r")
-fout = open("./Data/Output/output.txt", "w")
-s = file.read()
+def tokenizeparagraphs(fileName):
+    paragraphTokens = []
+    for line in f:
+        # print(line)
+        if line not in ['\n', '\r\n']:
+            paragraphTokens.append(line)
+        # print(paragraphTokens)
+    return paragraphTokens
 
-vocab = []
+path = './Data/Train/sinbad.txt'
+files = glob.glob(path)
+f = open('./Data/Train/sinbad.txt')
 
-# cleanstory = preprocessdata(s)
-# cleanstory = s.lower()
-cleanstory = pos_tag(word_tokenize(s))
+nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+pTokens = tokenizeparagraphs(f)
 
-# Tagging dialogue sentences.
-
-# per = 'PERSON: {<DET>?<JJ>+<NNP>+}'
-# loc = 'LOCATION: {<DT><NN>}'
-#
-# story = RegexpParser(loc)
-# c = story.parse(cleanstory)
-#
-# for words in c:
-#     if type(words) == Tree:
-#         print(words)
-
-
-# NER using NLTK ne_chunk. Displaying all the words which are recognised as an entity.
-cleanstory = ne_chunk(cleanstory)
-for words in cleanstory:
-    if type(words) == Tree and words[0][0] not in vocab:
-        for i in range(0, len(words)):
-            if words.label() == 'GPE':
-                print(words[0][0])
-
-
-# Print the POS tags to output file in-order to get regex
-
-# for word in cleanstory:
-#     fout.write(word[0]+' '+word[1]+'\n')
-
-fout.close()
-file.close()
+for para in pTokens:
+    p = nlp.coref(para)
+    print(p)
 
