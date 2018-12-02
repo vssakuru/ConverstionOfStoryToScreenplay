@@ -4,19 +4,33 @@ from nltk import pos_tag
 from nltk import word_tokenize
 
 
+charglobal = []
+time = 'UNK'
+
+
 def nameentityrecognision(ner, dict):
+    global charglobal
+    global time
+    char = []
     dict.update({'NAME': []})
     dict.update({'TIME': 'UNK'})
-
     for tuple in ner:
         if tuple[1] == 'PERSON' or tuple[1] == 'TITLE':
-            # NAME.append(tuple[0])
-            dict.update(NAME=tuple[0])
+            if not tuple[0] in char:
+                char.append(tuple[0])
+                # NAME.append(tuple[0])
         elif tuple[1] == 'TIME' or tuple[1] == 'DATE' or tuple[1] == 'SET' or tuple[1] == 'DURATION':
+            time = tuple[0]
             # TIME.append(tuple[0])
-            dict.update(TIME = tuple[0])
+        dict.update(TIME=time)
+        dict.update(NAME=char)
+    charglobal = char
+
+location = 'UNK'
 
 def locationrecognision(para, dict):
+    global charglobal
+    global location
     dict.update({'LOCATION': 'UNK'})
     p = word_tokenize(para)
     p = pos_tag(p)
@@ -25,11 +39,15 @@ def locationrecognision(para, dict):
         if type(words) == Tree:
             for i in range(0, len(words)):
                 if words.label() == 'GPE':
-                    #LOCA.append(words[0][0])
-                    dict.update(LOCATION=words[0][0])
+                    #LOCA.append
+                    if not words[0][0] in charglobal:
+                        location = words[0][0]
+    dict.update(LOCATION=location)
 
 # fsstory = open("./Data/Train/sleepingBeauty.txt")
-nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+#nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+#nlp = StanfordCoreNLP(r'/Users/unaizafaiz/Documents/UIC/Fall2018/SNLP/Project/ConverstionOfStoryToScreenplay/stanford-corenlp-full-2018-10-05', quiet=False, timeout=100000)
+nlp = StanfordCoreNLP(r'../stanford-corenlp-full-2018-10-05', quiet=False, timeout=100000)
 # story = fstory.read()
 
 
