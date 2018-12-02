@@ -29,10 +29,9 @@ for index in range(len(pTokens)):
     for i in p:
         for index2 in range(1, len(i)):
             if i[index2][3] in pronouns:
-                print(i[index2][0]-1)
-                sent = sentList[i[index2][0]-1]
-                sentList[i[index2][0] - 1] = sent.replace(" "+i[index2][3]+" ", " "+i[0][3]+" ")
-                # sentList[i[index2][0] - 1] = sent
+                if i[index2][0]-1 < len(sentList):
+                    sent = sentList[i[index2][0]-1]
+                    sentList[i[index2][0] - 1] = sent.replace(" "+i[index2][3]+" ", " "+i[0][3]+" ")
     for sent in sentList:
         st = st + sent
     pTokens[index] = st
