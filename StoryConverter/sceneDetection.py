@@ -5,18 +5,6 @@ import ner
 from stanfordcorenlp import StanfordCoreNLP
 
 
-# def tokenizeParagraphs(fileName):
-#     paragraphTokens = []
-    # #with open(fileName) as f:
-    # for line in fileName:
-    #         # print(line)
-    #     if line not in ['\n', '\r\n']:
-    #         paragraphTokens.append(line)
-    #     # print(paragraphTokens)
-    # return paragraphTokens
-    # for para in fileName:
-
-
 def startsWith(token):
     # token = dp.removePunctuations(token)
     # print(token)
@@ -29,8 +17,8 @@ def startsWith(token):
                 return True
     return False
 
-nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
-path = './Data/Train/aladinAndTheMagicLamp.txt'
+nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=False, timeout=100000)
+path = './Data/Train/*.txt'
 files = glob.glob(path)
 storyList = []
 
@@ -47,31 +35,8 @@ for story in erStory:
     paragraphTokens = story['pTokens']
 
     ##detecting entities for each paragraph
-    ## listER = getEntities(paragraphTok ens)
-
     listER = story['Entities']
-    #  for i in range(0,5):
-    #      #....detect character ... location and time as string
-    #      character = ['a','b','c'] ## call method to detect character in the paragraph
-    #      location = 'village'
-    #      time = 'day'
-    #      dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
-    #      listER.append(dict)
 
-    #  for i in range(5,len(paragraphTokens)):
-    #      #....detect character ... location and time as string
-    #      character = ['a','b','c'] ## call method to detect character in the paragraph
-    #      location = 'palace'
-    #      time = 'day'
-    #      dict = {'paragraphText':paragraphTokens[i], 'character':character, 'location':location, 'time':time}
-    #      listER.append(dict)
-
-    #  for i in range(0,len(listER)):
-    #      print(listER[i]['paragraphText'])
-    #      print(listER[i]['character'])
-    #      print(listER[i]['location'])
-    #      print(listER[i]['time'])
-    #      print("\n\n")
 
     ##Using lexicon to detect scenes
     scenes = []
