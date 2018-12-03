@@ -47,11 +47,10 @@ def locationrecognision(para, dict):
 # fsstory = open("./Data/Train/sleepingBeauty.txt")
 #nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
 #nlp = StanfordCoreNLP(r'/Users/unaizafaiz/Documents/UIC/Fall2018/SNLP/Project/ConverstionOfStoryToScreenplay/stanford-corenlp-full-2018-10-05', quiet=False, timeout=100000)
-nlp = StanfordCoreNLP(r'../stanford-corenlp-full-2018-10-05', quiet=False, timeout=100000)
 # story = fstory.read()
 
 
-def getentity(storyList):
+def getentity(storyList, nlp):
     for story in storyList:
         ER = []
 

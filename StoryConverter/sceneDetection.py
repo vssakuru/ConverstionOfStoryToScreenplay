@@ -1,17 +1,20 @@
 import glob
 import os
 import nerCoref
+import ner
+from stanfordcorenlp import StanfordCoreNLP
 
 
-def tokenizeParagraphs(fileName):
-    paragraphTokens = []
-    with open(fileName) as f:
-        for line in f:
-            # print(line)
-            if line not in ['\n', '\r\n']:
-                paragraphTokens.append(line)
-        # print(paragraphTokens)
-    return paragraphTokens
+# def tokenizeParagraphs(fileName):
+#     paragraphTokens = []
+    # #with open(fileName) as f:
+    # for line in fileName:
+    #         # print(line)
+    #     if line not in ['\n', '\r\n']:
+    #         paragraphTokens.append(line)
+    #     # print(paragraphTokens)
+    # return paragraphTokens
+    # for para in fileName:
 
 
 def startsWith(token):
@@ -26,17 +29,19 @@ def startsWith(token):
                 return True
     return False
 
-
-path = './Data/Train/sleepingBeauty.txt'
+nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+path = './Data/Train/aladinAndTheMagicLamp.txt'
 files = glob.glob(path)
 storyList = []
 
 for file in files:
-    paragraphTokens = tokenizeParagraphs(file)
-    dict = {'file': file, 'pTokens': paragraphTokens}
-    storyList.append(dict)
+    with open(file) as filename:
+        story = ner.preprocessing(filename, nlp)
+        # paragraphTokens = tokenizeParagraphs(story)
+        dict = {'file': file, 'pTokens': story}
+        storyList.append(dict)
 
-erStory = nerCoref.getentity(storyList)
+erStory = nerCoref.getentity(storyList, nlp)
 
 for story in erStory:
     paragraphTokens = story['pTokens']
