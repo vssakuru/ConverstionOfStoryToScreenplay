@@ -6,18 +6,24 @@ from nltk import word_tokenize
 
 charglobal = []
 time = 'UNK'
+character = []
 
 
 def nameentityrecognision(ner, dict):
     global charglobal
+    global character
     global time
+    relations = ['mother','Mother','father','Father','brother', 'Brother', 'sisters', 'Sisters','sister','Sister',
+                 'brothers', 'Brothers', 'wife', 'husband', 'grandmother','Grandmother']
     char = []
     dict.update({'NAME': []})
     dict.update({'TIME': 'UNK'})
     for tuple in ner:
-        if tuple[1] == 'PERSON' or tuple[1] == 'TITLE':
+        if tuple[1] == 'PERSON' or tuple[1] == 'TITLE' or tuple[0].lower() in relations:
             if not tuple[0] in char:
-                char.append(tuple[0])
+                char.append(tuple[0].lower())
+                if tuple[0] not in character:
+                    character.append(tuple[0].lower())
                 # NAME.append(tuple[0])
         elif tuple[1] == 'TIME' or tuple[1] == 'DATE' or tuple[1] == 'SET' or tuple[1] == 'DURATION':
             time = tuple[0]
@@ -29,7 +35,7 @@ def nameentityrecognision(ner, dict):
 location = 'UNK'
 
 def locationrecognision(para, dict):
-    global charglobal
+    global character
     global location
     dict.update({'LOCATION': 'UNK'})
     p = word_tokenize(para)
@@ -40,7 +46,7 @@ def locationrecognision(para, dict):
             for i in range(0, len(words)):
                 if words.label() == 'GPE':
                     #LOCA.append
-                    if not words[0][0] in charglobal:
+                    if not words[0][0].lower() in character:
                         location = words[0][0]
     dict.update(LOCATION=location)
 

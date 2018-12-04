@@ -11,7 +11,7 @@ def tokenizeparagraphs(fileName):
     return paragraphTokens
 
 
-pronouns = ["he", "He", "she", "She", "his", "His", "her", "Her"]
+pronouns = ["he", "He", "she", "She"]
 
 def preprocessing(file, nlp):
     story = ""
@@ -32,9 +32,9 @@ def preprocessing(file, nlp):
                         sent = sentList[i[index2][0]-1]
                         sentList[i[index2][0] - 1] = sent.replace(" "+i[index2][3]+" ", " "+i[0][3]+" ")
         for sent in sentList:
-            st = st + sent
+            st = st +" "+ sent
         pTokens[index] = st
-    for tok in pTokens:
-        story += tok
+    # for tok in pTokens:
+    #     story += tok
     # print(story)
     return pTokens

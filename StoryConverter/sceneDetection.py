@@ -27,7 +27,8 @@ def startsWith(token):
                 return True
     return False
 
-nlp = StanfordCoreNLP('http://localhost',port=9000, timeout=100000)
+# nlp = StanfordCoreNLP('http://localhost',port=9000, timeout=100000)
+nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
 path = './Data/Train/*.txt'
 #print("file path detected")
 files = glob.glob(path)
