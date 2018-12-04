@@ -9,6 +9,12 @@ time = 'UNK'
 character = []
 
 
+with open("./animal.txt") as fairyVocabFile:
+    fairyVocab = fairyVocabFile.readlines()
+# you may also want to remove whitespace characters like `\n` at the end of each line
+fairyVocab = [x.strip() for x in fairyVocab]
+
+
 def nameentityrecognision(ner, dict):
     global charglobal
     global character
@@ -19,10 +25,10 @@ def nameentityrecognision(ner, dict):
     dict.update({'NAME': []})
     dict.update({'TIME': 'UNK'})
     for tuple in ner:
-        if tuple[1] == 'PERSON' or tuple[1] == 'TITLE' or tuple[0].lower() in relations:
-            if not tuple[0] in char:
+        if tuple[1] == 'PERSON' or tuple[1] == 'TITLE' or tuple[0].lower() in relations or tuple[0].lower() in fairyVocab:
+            if not tuple[0].lower() in char:
                 char.append(tuple[0].lower())
-                if tuple[0] not in character:
+                if tuple[0].lower() not in character:
                     character.append(tuple[0].lower())
                 # NAME.append(tuple[0])
         elif tuple[1] == 'TIME' or tuple[1] == 'DATE' or tuple[1] == 'SET' or tuple[1] == 'DURATION':

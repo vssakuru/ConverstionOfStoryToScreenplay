@@ -10,7 +10,7 @@ LOCATION:UNK
  It happened that just at this time there was a famine in the land, and  the woodcutter and his wife became so poor that they could no longer  give their boys enough to eat.One night--after the boys had gone to bed--the husband sighing deeply,  said--
 
 ----SCENE----
-CHARACTERS:husband, wife, tom, thumb, river, brothers, father, mother
+CHARACTERS:husband, bear, wife, tom, thumb, river, brothers, father, mother
 LOCATION:UNK
  One night--after the boys had gone to bed--the husband sighing deeply,  said--"We cannot feed our children any longer, and to see them starve before  our eyes is more than I can bear. To-morrow morning, therefore, we will  take them into the forest and leave them in the thickest part of it, so  that they will not be able to find their way back."
  "We cannot feed our children any longer, and to see them starve before  our eyes is more than I can bear. To-morrow morning, therefore, we will  take them into the forest and leave them in the thickest part of it, so  that they will not be able to find their way back."His wife wept bitterly at the thought of leaving their children to  perish in the forest; but she, too, thought it better than to see them  die before her eyes. So she consented to her husband's plan.
@@ -37,7 +37,7 @@ LOCATION:UNK
  Tom Thumb consoled his brothers as before; but when his came to look for  the crumbs of bread, not one of them was left. The birds had eaten them  all up, and the poor children were lost in the forest, with no possible  means of finding their way home.Tom Thumb did not lose courage. He climbed to the top of a high tree and  looked round to see if there was any way of getting help. In the  distance he saw a light burning, and, coming down from the tree, he led  his brothers toward the house from which it came.
 
 ----SCENE----
-CHARACTERS:tom, thumb, brothers, wife, husband
+CHARACTERS:tom, thumb, brothers, ogre, wife, husband
 LOCATION:UNK
  Tom Thumb did not lose courage. He climbed to the top of a high tree and  looked round to see if there was any way of getting help. In the  distance he saw a light burning, and, coming down from the tree, he led  his brothers toward the house from which it came.When they knocked at the door, it was opened by a pleasant-looking  woman, and Tom Thumb told her they were poor children who had lost their  road, and begged her to give them a night's shelter.
  When they knocked at the door, it was opened by a pleasant-looking  woman, and Tom Thumb told her they were poor children who had lost their  road, and begged her to give them a night's shelter."Alas, my poor children!" said the woman, "you do not know where you  have come to. This is the house of an ogre who eats up little boys and  girls."
@@ -51,27 +51,27 @@ LOCATION:UNK
  "Oh, ho, madam!" said he; "so you thought to cheat me, did you? But,  really, this is very lucky! I have invited three ogres to dinner  to-morrow; these brats will make a nice dish."He fetched a huge knife and began sharpening it, while the poor boys  fell on their knees and begged for mercy. But their prayers and  entreaties were useless. The ogre seized one of the children and was  just about to kill him, when his wife said--
 
 ----SCENE----
-CHARACTERS:wife
+CHARACTERS:ogre, wife
 LOCATION:UNK
  He fetched a huge knife and began sharpening it, while the poor boys  fell on their knees and begged for mercy. But their prayers and  entreaties were useless. The ogre seized one of the children and was  just about to kill him, when his wife said--"What in the world makes you take the trouble of killing them to-night?  Why don't you leave them till the morning? There will be plenty of time,  and they will be much fresher."
 
 ----SCENE----
-CHARACTERS:
+CHARACTERS:ogre
 LOCATION:UNK
  "What in the world makes you take the trouble of killing them to-night? Why don't you leave them till the morning? There will be plenty of time,  and they will be much fresher.""That is very true," said the ogre, throwing down the knife. "Give them  a good supper, so that they may not get lean, and send them to bed."
 
 ----SCENE----
-CHARACTERS:tom, thumb, brothers, wife
+CHARACTERS:ogre, tom, thumb, brothers, wife
 LOCATION:UNK
  "That is very true," said the ogre, throwing down the knife. "Give them  a good supper, so that they may not get lean, and send them to bed."Now, the ogre had seven young daughters, who were all about the same age  as Tom Thumb and his brothers. These young ogresses all slept together  in one large bed, and every one of them had a crown of gold on her head.  There was another bed of the same size in the room, and in this the  ogre's wife, having provided them all with nightcaps, put the seven  little boys.
 
 ----SCENE----
-CHARACTERS:tom, thumb, brothers, wife
+CHARACTERS:ogre, tom, thumb, brothers, wife
 LOCATION:UNK
  Now, the ogre had seven young daughters, who were all about the same age  as Tom Thumb and his brothers. These young ogresses all slept together  in one large bed, and every one of them had a crown of gold on her head. There was another bed of the same size in the room, and in this the  ogre's wife, having provided them all with nightcaps, put the seven  little boys.But Tom Thumb was afraid that the ogre might change his mind in the  night, and kill him and his brothers while they were asleep. So he crept  softly out of bed, took off his brothers' nightcaps and his own, and  stole over to the bed where the young ogresses lay. He drew off their  crowns very gently, and put the nightcaps on their heads instead. Then  he put the crowns on his brothers' heads and his own, and got into bed  again.
 
 ----SCENE----
-CHARACTERS:tom, thumb, brothers, wife, father
+CHARACTERS:tom, thumb, ogre, brothers, wife, father
 LOCATION:UNK
  But Tom Thumb was afraid that the ogre might change his mind in the  night, and kill him and his brothers while they were asleep. So he crept  softly out of bed, took off his brothers' nightcaps and his own, and  stole over to the bed where the young ogresses lay. He drew off their  crowns very gently, and put the nightcaps on their heads instead. Then  the ogre put the crowns on his brothers' heads and his own, and got into bed  again.In the middle of the night the ogre woke up, and began to be sorry that  he had put off killing the boys until the morning.
  In the middle of the night the ogre woke up, and began to be sorry that  he had put off killing the boys until the morning."Never put off till to-morrow what you can do to-day," he said; and,  jumping out of bed, he got his knife and walked stealthily to the room  where the boys were. He walked up to the bed, and they were all asleep  except Tom Thumb, who, however, kept his eyes fast shut, and did not  show that he was awake. The ogre touched their heads, one after another,  and feeling the crowns of gold, he said to himself:
@@ -87,12 +87,12 @@ LOCATION:UNK
  When they were all in he crept in himself, but kept his eyes fixed on  the ogre, to see what he would do.The ogre, seeing nothing of the children, sat down to rest himself on  the very rock under which the poor boys were hiding. He was tired with  his journey, and soon fell fast asleep, and began to snore so loudly  that the little fellows were terrified. Tom Thumb told his brothers to  creep out softly and run home; which they did. Then he crept up to the  ogre, pulled off the seven-league boots very gently and put them on his  own feet, for being fairy boots they could fit themselves to any foot,  however small.
 
 ----SCENE----
-CHARACTERS:tom, thumb, brothers, king, father, mother
+CHARACTERS:ogre, tom, thumb, brothers, king, father, mother
 LOCATION:Palace
  The ogre, seeing nothing of the children, sat down to rest himself on  the very rock under which the poor boys were hiding. He was tired with  his journey, and soon fell fast asleep, and began to snore so loudly  that the little fellows were terrified. Tom Thumb told his brothers to  creep out softly and run home; which they did. Then he crept up to the  ogre, pulled off the seven-league boots very gently and put them on his  own feet, for being fairy boots they could fit themselves to any foot,  however small.As soon as Tom Thumb had put on the ogre's seven-league boots, he took  ten steps to the Palace, which was seventy miles off, and asked to see  the King. He offered to carry news to the King's army, which was then a  long way off; and so useful was he with his magic boots, that in a short  time he had made money enough to keep himself, his father, his mother  and his six brothers without the trouble of working for the rest of  their lives.
 
 ----SCENE----
-CHARACTERS:tom, thumb, king, father, mother, brothers
+CHARACTERS:tom, thumb, ogre, king, father, mother, brothers
 LOCATION:Palace
  As soon as Tom Thumb had put on the ogre's seven-league boots, he took  ten steps to the Palace, which was seventy miles off, and asked to see  the King. He offered to carry news to the King's army, which was then a  long way off; and so useful was he with his magic boots, that in a short  time he had made money enough to keep himself, his father, his mother  and his six brothers without the trouble of working for the rest of  their lives.And now let us see what has become of the wicked ogre, whom we left  sleeping on the rock.
  And now let us see what has become of the wicked ogre, whom we left  sleeping on the rock.When he awoke he missed his seven-league boots, and set off for home  very angry.

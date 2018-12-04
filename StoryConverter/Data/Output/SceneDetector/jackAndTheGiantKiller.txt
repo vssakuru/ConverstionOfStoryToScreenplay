@@ -1,11 +1,11 @@
 
 ----SCENE----
-CHARACTERS:king, arthur, farmer, jack, cornish
+CHARACTERS:king, arthur, farmer, jack, giant, cornish
 LOCATION:Cornwall
  In the reign of King Arthur there lived in the County of Cornwall a  worthy farmer, who had an only son, named Jack. Jack was strong and  brave and very daring, and was never backward when danger was in the  way.Now, in those days there lived a huge giant in a gloomy cavern on St.  Michael's Mount, which rises out of the sea near the shores of Cornwall.  The Cornish people had suffered greatly from his thefts and pillaging;  for he used to wade through the sea to the mainland, and carry off half  a dozen or more of their oxen at a time.
 
 ----SCENE----
-CHARACTERS:cornish, jack, villain
+CHARACTERS:giant, cornish, jack, monster, villain
 LOCATION:Cornwall
  Now, in those days there lived a huge giant in a gloomy cavern on St.  Michael's Mount, which rises out of the sea near the shores of Cornwall. The Cornish people had suffered greatly from his thefts and pillaging;  for he used to wade through the sea to the mainland, and carry off half  a dozen or more of their oxen at a time.At last Jack made up his mind to destroy this monster. He took a horn,  a shovel, a pickaxe, and a dark lantern, and one winter's evening swam  over the sea to the Mount. Then he set to work, and before morning had  dug a great pit. He covered it carefully over with sticks and straw,  and strewed some earth on the top to make it look like solid ground.  And then he blew his horn so loudly that the Giant awoke, and came  out roaring like thunder:
  At last Jack made up his mind to destroy this monster. He took a horn,  a shovel, a pickaxe, and a dark lantern, and one winter's evening swam  over the sea to the Mount. Then he set to work, and before morning had  dug a great pit. He covered it carefully over with sticks and straw,  and strewed some earth on the top to make it look like solid ground. And then he blew his horn so loudly that the Giant awoke, and came  out roaring like thunder:"You impudent villain--you shall pay dearly for disturbing my rest. I  will broil you for my breakfast!"
@@ -19,7 +19,7 @@ LOCATION:Cornwall
  When the Justices of Cornwall heard of this valiant deed, they sent  for Jack, and declared that he should always be called Jack the Giant  Killer; and they gave him a sword, and a belt upon which was written,  in letters of gold:"This is the valiant Cornishman       Who slew the giant Cormoran."
 
 ----SCENE----
-CHARACTERS:blunderbore, jack, brother
+CHARACTERS:giant, blunderbore, jack, brother, monster
 LOCATION:Wales
  "This is the valiant Cornishman       Who slew the giant Cormoran."There was another giant in England called Blunderbore, who vowed to take  revenge on Jack for this exploit. One day, as Jack was passing through a  wood on a journey to Wales, he fell asleep by the side of a fountain.  The Giant, coming along, found him there; and, seeing by the writing on  the belt who Jack was, he lifted him on his shoulder and carried him off  to his castle.
  There was another giant in England called Blunderbore, who vowed to take  revenge on Jack for this exploit. One day, as Jack was passing through a  wood on a journey to Wales, he fell asleep by the side of a fountain. The Giant, coming along, found him there; and, seeing by the writing on  the belt who Jack was, Jack lifted him on his shoulder and carried him off  to his castle.When Jack awoke and found himself in the clutches of Blunderbore he was  terribly frightened. The giant carried him into a room and locked him  up, while he went to fetch another giant who lived close by to help him  eat Jack for dinner. While he was gone, Jack heard dreadful shrieks and  groans from different parts of the castle, and soon after he heard a  mournful voice saying:
@@ -27,30 +27,30 @@ LOCATION:Wales
  "Haste, valiant stranger, haste away,       Lest you become the giant's prey. On his return he'll bring another,       Still more savage than his brother;       A horrid, cruel monster, who       Before he kills will torture you!"Poor Jack looked out of the window, which was just over the gate of the  castle, and saw two giants coming along arm in arm.
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  Poor Jack looked out of the window, which was just over the gate of the  castle, and saw two giants coming along arm in arm."Now," thought he, "death or freedom is at hand." There happened to  be two strong cords in the room, and Jack made a large noose with a  slip-knot in each of them. Then, just as the giants were coming through  the gate he threw the ropes over their heads, and, fastening the other  ends to a beam in the ceiling, he pulled the ropes with all his might  until he had nearly strangled the giants. Then he drew his sword and  slipped down the ropes and killed them both.
  "Now," thought he, "death or freedom is at hand." There happened to  be two strong cords in the room, and Jack made a large noose with a  slip-knot in each of them. Then, just as the giants were coming through  the gate he threw the ropes over their heads, and, fastening the other  ends to a beam in the ceiling, he pulled the ropes with all his might  until he had nearly strangled the giants. Then Poor Jack drew his sword and  slipped down the ropes and killed them both.Next Jack took the keys from Giant Blunderbore and searched through the  castle. In one of the rooms he found three ladies who told him that  their husbands had been killed by the giant, who had afterwards  condemned them to be starved to death.
  Next Jack took the keys from Giant Blunderbore and searched through the  castle. In one of the rooms he found three ladies who told him that  their husbands had been killed by the giant, who had afterwards  condemned them to be starved to death.Jack gave them the castle and all the riches it contained to make some  amends for the dreadful pains they had suffered, and then went on his  way.
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  Jack gave them the castle and all the riches it contained to make some  amends for the dreadful pains they had suffered, and then went on his  way.After traveling some days, he lost himself in a lonely valley; but, when  he had wandered about some while, he at length succeeded in finding a  large house. He went up to it and knocked loudly at the gate, when, to  his great horror, a monstrous giant with two heads came forth. He spoke  very civilly, however, and took Jack into the house, leading him to a  room where there was a good bed, in which he could pass the night.
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  After traveling some days, Jack lost himself in a lonely valley; but, when  Jack had wandered about some while, Jack at length succeeded in finding a  large house. He went up to it and knocked loudly at the gate, when, to  his great horror, a monstrous giant with two heads came forth. He spoke  very civilly, however, and took Jack into the house, leading him to a  room where there was a good bed, in which Jack could pass the night.Jack took off his clothes; but, though he was very tired, he could not  go to sleep. Presently he heard the giant walking about in the  bedchamber, which was the next room, saying to himself:
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  Jack took off his clothes; but, though he was very tired, he could not  go to sleep. Presently he heard the giant walking about in the  bedchamber, which was the next room, saying to himself:"Though here you lodge with me this night;       You shall not see the morning light;       My club shall dash your brains out quite."
  "Though here you lodge with me this night;       You shall not see the morning light;       My club shall dash your brains out quite."When he heard this, Jack got out of bed, and, taking a large, thick  piece of wood, he laid it in his own place in the bed, and hid himself  in a dark corner of the room.
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant, rat
 LOCATION:Wales
  When he heard this, Jack got out of bed, and, taking a large, thick  piece of wood, he laid it in his own place in the bed, and hid himself  in a dark corner of the room.In the middle of the night, the giant came with his great club, and  struck several heavy blows upon the bed. Then he went off, thinking he  had broken all Jack's bones.
  In the middle of the night, the giant came with his great club, and  struck several heavy blows upon the bed. Then he went off, thinking he  had broken all Jack's bones.Early next morning Jack walked into the giant's room and thanked him  for the night's lodging. The giant was terribly startled to see him,  and stammered out:
@@ -60,13 +60,13 @@ LOCATION:Wales
  The giant said nothing; but went and fetched two bowls of hasty pudding  for their breakfast.Jack did not wish the giant to think that he could not eat as much as  himself, so he contrived to fasten a leathern bag inside his coat. He  then managed to slip the pudding into this bag, while pretending to eat  it. When breakfast was done, he said to the giant:
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  Jack did not wish the giant to think that he could not eat as much as  himself, so he contrived to fasten a leathern bag inside his coat. He  then managed to slip the pudding into this bag, while pretending to eat  it. When breakfast was done, he said to the giant:"Now I will show you a fine trick. I can cure all wounds with a touch.  You shall see an example." He then took a knife, ripped up the leathern  bag, and all the hasty pudding tumbled out upon the floor.
  "Now I will show you a fine trick. I can cure all wounds with a touch. You shall see an example." He then took a knife, ripped up the leathern  bag, and all the hasty pudding tumbled out upon the floor."Ods splutter hur nails!" cried the giant, who was ashamed to be outdone  by such a little fellow. "Hur can do that hurself!" and, snatching up  the knife, he plunged it into his stomach and fell down dead.
 
 ----SCENE----
-CHARACTERS:jack, king, arthur, magician, prince
+CHARACTERS:giant, jack, king, arthur, magician, prince
 LOCATION:Wales
  "Ods splutter hur nails!" cried the giant, who was ashamed to be outdone  by such a little fellow. "Hur can do that hurself!" and, snatching up  the knife, he plunged it into his stomach and fell down dead.After this, Jack went farther on his journey. In a few days he met King  Arthur's only son, who was traveling into Wales to deliver a beautiful  lady from the power of a wicked magician. Jack attached himself to the  Prince, and they traveled on together.
  After this, Jack went farther on his journey. In a few days he met King  Arthur's only son, who was traveling into Wales to deliver a beautiful  lady from the power of a wicked magician. Jack attached himself to the  Prince, and they traveled on together.The Prince was very generous, and soon gave away all the money he  possessed.
@@ -77,7 +77,7 @@ LOCATION:Wales
  The Prince was very generous, and soon gave away all the money he  possessed.After having parted with his last penny to an old beggar-woman, he was  very uneasy as to where they were to pass the night.
 
 ----SCENE----
-CHARACTERS:prince, jack, cousin, king
+CHARACTERS:prince, jack, giant, fly, cousin, king
 LOCATION:Wales
  After having parted with his last penny to an old beggar-woman, The Prince was  very uneasy as to where they were to pass the night."Sir," said Jack, "two miles farther on there lives a giant with three  heads, who can fight five hundred men at once and make them fly. I will  go on and visit him--do you wait here until I return."
  "Sir," said Jack, "two miles farther on there lives a giant with three  heads, who can fight five hundred men at once and make them fly. I will  go on and visit him--do you wait here until I return."Jack rode on to the gates of the castle, and gave a loud knock. The  giant, with a voice like thunder, roared out:
@@ -88,12 +88,12 @@ LOCATION:Wales
  "Dear Uncle, I have bad news for you. Here is the King's son coming  with two thousand men to kill you!""Cousin Jack, this is bad news indeed! But I have a large cellar  underground, where I shall hide myself, and you shall lock, bolt  and bar me in until the King's son is gone."
 
 ----SCENE----
-CHARACTERS:cousin, jack, king, prince
+CHARACTERS:cousin, jack, king, giant, prince
 LOCATION:Wales
  "Cousin Jack, this is bad news indeed! But I have a large cellar  underground, where I shall hide myself, and you shall lock, bolt  and bar me in until the King's son is gone."So Jack locked, bolted and barred the giant in the cellar, and then  went back and fetched the Prince, and they feasted and made merry,  and spent the night very comfortably in the castle.
 
 ----SCENE----
-CHARACTERS:jack, prince
+CHARACTERS:jack, giant, prince
 LOCATION:Wales
  So Jack locked, bolted and barred the giant in the cellar, and then  went back and fetched the Prince, and they feasted and made merry,  and spent the night very comfortably in the castle.In the morning Jack gave the Prince gold and silver from the giant's  treasury. Then the Prince set forth on his journey, while Jack let  the giant out of the cellar.
  In the morning Jack gave the Prince gold and silver from the giant's  treasury. Then the Prince set forth on his journey, while Jack let  the giant out of the cellar.The giant thanked Jack very much for saving him, and asked what he  should give him as a reward?
@@ -102,7 +102,7 @@ LOCATION:Wales
  "Take them," said the giant, "and keep them for my sake. They will be  very useful to you. The coat will make you invisible; the cap will give  you knowledge; the sword will cut through anything, no matter what it  may be, and the shoes are of vast swiftness."Jack took the gifts, thanked the giant, and then quickly caught up with  the Prince.
 
 ----SCENE----
-CHARACTERS:jack, prince
+CHARACTERS:jack, giant, prince
 LOCATION:Wales
  Jack took the gifts, thanked the giant, and then quickly caught up with  the Prince.After a few day's further journey they reached the dwelling of the  beautiful lady whom the Prince had come to rescue.
  After a few day's further journey they reached the dwelling of the  beautiful lady whom the Prince had come to rescue.She received the Prince very graciously and made a feast for him. When  it was ended she rose, and, taking her handkerchief, said:
@@ -123,7 +123,7 @@ LOCATION:Wales
  The Prince went to bed very mournfully; but Jack put on the cap of  knowledge, which told him that the lady was forced by the power of  enchantment to meet the wicked magician every night in the forest.He, therefore, put on his coat of darkness, and his shoes of swiftness,  and was there before her. When the lady came, she gave the handkerchief  to the magician. Jack with his sword of sharpness cut off his head with  one blow; and the enchantment was ended in a minute.
 
 ----SCENE----
-CHARACTERS:magician, jack, prince, husband, king, arthur, brother, thundel, miller, villain
+CHARACTERS:magician, jack, prince, husband, king, arthur, giant, horse, monster, brother, thundel, miller, villain
 LOCATION:Wales
  He, therefore, put on his coat of darkness, and his shoes of swiftness,  and was there before her. When the lady came, the lady gave the handkerchief  to the magician. Jack with his sword of sharpness cut off his head with  one blow; and the enchantment was ended in a minute.The next day the lady was married to the Prince, and soon after went  with her husband to the Court of King Arthur, where Jack was made one  of the Knights of the Round Table for his heroism.
  The next day the lady was married to the Prince, and soon after went  with her husband to the Court of King Arthur, where Jack was made one  of the Knights of the Round Table for his heroism.Very soon Jack set off in search of new adventures. On the third day of  his travel he came to a wide forest. Hardly had he entered it when he  heard dreadful shrieks and cries, and soon he saw a monstrous giant  dragging along by the hair of their heads a handsome knight and a  beautiful lady. Their tears and cries melted Jack's heart. He alighted  from his horse, and put on his invisible coat, and immediately attacked  the giant. He could not reach up to the giant's body; so, taking a  mighty blow, he cut off both the monster's legs just below the garter,  so that he fell full length upon the ground. Then Jack set his foot upon  his neck and plunged his sword into the giant's body.
@@ -141,18 +141,18 @@ LOCATION:Wales
  "Ah!" cried the giant; "you are the villain that killed my kinsmen! I  will tear you with my teeth, and grind your bones to powder!""You must catch me first!" said Jack. Then he threw off his coat and put  on his shoes of swiftness, and began to run, the giant following him  like a walking castle. Jack led him round and round the house, and then  he ran over the drawbridge, while the giant rushed after him with his  club. But when he came to the middle of the bridge, where it had been  cut on both sides, his great weight broke it, and he tumbled into the  water.
 
 ----SCENE----
-CHARACTERS:jack
+CHARACTERS:jack, giant
 LOCATION:Wales
  "You must catch me first!" said Jack. Then he threw off his coat and put  on his shoes of swiftness, and began to run, the giant following him  like a walking castle. Jack led him round and round the house, and then  he ran over the drawbridge, while the giant rushed after him with his  club. But when he came to the middle of the bridge, where it had been  cut on both sides, his great weight broke it, and he tumbled into the  water.Jack now got a cart rope and flung it over his two heads, and then, by  the help of a team of horses, drew him to the edge of the moat, where  he cut off his heads.
  Jack now got a cart rope and flung it over his two heads, and then, by  the help of a team of horses, drew him to the edge of the moat, where  he cut off his heads.Once again, Jack set out in search of new adventures. He went over  fields and dales without meeting with any, until he came to the foot of  a high mountain. Here was a little, lonely house; and when he knocked at  the door it was opened by an old man with a beard as white as snow. This  old man was a good hermit, and when Jack had eaten well, he said:
 
 ----SCENE----
-CHARACTERS:jack, galligantes, magician, duke
+CHARACTERS:jack, giant, galligantes, magician, duke, deer
 LOCATION:Wales
  Once again, Jack set out in search of new adventures. He went over  fields and dales without meeting with any, until Jack came to the foot of  a high mountain. Here was a little, lonely house; and when Jack knocked at  the door it was opened by an old man with a beard as white as snow. This  old man was a good hermit, and when Jack had eaten well, Jack said:"My son, I know that you are the famous conqueror of giants. I know, at  the top of this mountain there is an enchanted castle, kept by a giant  named Galligantes, who, by the help of a magician, gets many knights  into his power--whom he changes into beasts. Above all, I lament the  hard fate of a duke's daughter, whom they have changed into a deer. Many  knights have tried to destroy the enchantment, yet none have been able  to do so, because of two fiery griffins who guard the gates of the  castle. But as you, my son, have an invisible coat, you may pass them by  without being seen. On the gates of the castle you will find engraved  the means by which the enchantment may be broken."
 
 ----SCENE----
-CHARACTERS:galligantes, magician, duke, jack
+CHARACTERS:giant, galligantes, magician, duke, deer, jack
 LOCATION:Wales
  "My son, I know that you are the famous conqueror of giants. I know, at  the top of this mountain there is an enchanted castle, kept by a giant  named Galligantes, who, by the help of a magician, gets many knights  into his power--whom he changes into beasts. Above all, I lament the  hard fate of a duke's daughter, whom they have changed into a deer. Many  knights have tried to destroy the enchantment, yet none have been able  to do so, because of two fiery griffins who guard the gates of the  castle. But as you, my son, have an invisible coat, you may pass them by  without being seen. On the gates of the castle you will find engraved  the means by which the enchantment may be broken."Jack promised that in the morning he would risk his life in an endeavor  to break the enchantment; and, after a sound sleep, he arose early and  set out on his attempt.
  Jack promised that in the morning he would risk his life in an endeavor  to break the enchantment; and, after a sound sleep, he arose early and  set out on his attempt.He passed by the fiery griffins without the least fear of danger; for  they could not see him, because of his invisible coat.
@@ -160,6 +160,6 @@ LOCATION:Wales
  On the castle gate He found a golden trumpet hanging, under which were  written these words--"Whoever can this trumpet blow,       Shall cause the giant's overthrow."
 
 ----SCENE----
-CHARACTERS:jack, magician, duke
+CHARACTERS:giant, jack, fly, magician, duke
 LOCATION:Wales
  "Whoever can this trumpet blow,       Shall cause the giant's overthrow."Jack seized the golden trumpet and blew a mighty blast, which made the  gates fly open and shook the castle to its foundations. The giant and  the magician, knowing that their end was now near, stood biting their  thumbs and shaking with terror. Jack, with his magic sword, soon killed  the giant, and the magician was carried off by a whirlwind. The castle  vanished away like smoke, and the duke's daughter and all the knights  and lovely ladies who had been turned into birds and beasts returned to  their proper shape.

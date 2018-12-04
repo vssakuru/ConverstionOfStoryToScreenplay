@@ -34,6 +34,7 @@ path = './Data/Train/*.txt'
 files = glob.glob(path)
 storyList = []
 
+
 for file in files:
     #print("for each story")
     with open(file) as filename:

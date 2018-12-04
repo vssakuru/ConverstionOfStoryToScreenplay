@@ -1,10 +1,10 @@
-from preProcess import preprocessdata
-import nltk
 
 
-file = open("./Data/Train/sleepingBeauty.txt", "r")
+file = open("./animal.txt", "r+")
 s = file.read()
-chunk = nltk.ne_chunk(preprocessdata(s))
+file.write(s.lower())
+
+
 
 #re = 'NP : {<DT>?<JJ>*<NN>}'
 

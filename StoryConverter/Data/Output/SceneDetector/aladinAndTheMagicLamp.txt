@@ -60,7 +60,7 @@ LOCATION:China
  "Never mind now how they came here," said Aladdin. "Let us first eat,  then I will tell you."Mother and son made a hearty meal, and then Aladdin told his Mother that  it was the genie of the lamp who had brought them the food. His Mother  was greatly alarmed, and begged him to have nothing further to do with  genies, advising him to sell the lamp at once. But Aladdin would not  part with such a wonderful possession, and resolved to keep both the  ring and the lamp safely, in case he should ever need them again. He  showed his Mother the fruits which he had gathered in the garden, and  his Mother admired their bright colors and dazzling radiance, though  she had no idea of their real value.
 
 ----SCENE----
-CHARACTERS:mother, aladdin, princess, badroulboudour, sultan
+CHARACTERS:mother, aladdin, princess, badroulboudour, sultan, beauty
 LOCATION:China
  Mother and son made a hearty meal, and then Aladdin told his Mother that  it was the genie of the lamp who had brought them the food. His Mother  was greatly alarmed, and begged him to have nothing further to do with  genies, advising him to sell the lamp at once. But Aladdin would not  part with such a wonderful possession, and resolved to keep both the  ring and the lamp safely, in case he should ever need them again. He  showed his Mother the fruits which he had gathered in the garden, and  his Mother admired their bright colors and dazzling radiance, though  she had no idea of their real value.Not many days after this, Aladdin was walking in the streets of the  city, when he heard a fanfare of trumpets announcing the passing of the  Princess Badroulboudour, the Sultan's only daughter. Aladdin stopped to  see her go by, and was so struck by her great beauty that he fell in  love with her on the spot and made up his mind to win her for his bride.
  Not many days after this, Aladdin was walking in the streets of the  city, when he heard a fanfare of trumpets announcing the passing of the  Princess Badroulboudour, the Sultan's only daughter. Aladdin stopped to  see her go by, and was so struck by her great beauty that he fell in  love with her on the spot and made up his mind to win her for his bride."Mother," he said, "I cannot live without the Princess Badroulboudour.  You must go to the Sultan and demand her hand in marriage for me."
@@ -87,12 +87,12 @@ LOCATION:China
  The genie brought these things at once, and Aladdin then sent his Mother  with them to the Sultan.The Sultan was amazed at this wonderful show of wealth and at the  quickness with which it had been brought, and he sent for Aladdin to  come to the Court.
 
 ----SCENE----
-CHARACTERS:sultan, aladdin, princess
+CHARACTERS:sultan, aladdin, horse, princess
 LOCATION:Palace
  The Sultan was amazed at this wonderful show of wealth and at the  quickness with which it had been brought, and Aladdin sent for Aladdin to  come to the Court.Aladdin first summoned the genie to bring him fine clothes and a  splendid horse, and a retinue fit for the future son-in-law of the  Sultan; and then, with a train of slaves bearing magnificent presents  for the Princess, he set out for the Palace.
 
 ----SCENE----
-CHARACTERS:aladdin, sultan, princess, wife
+CHARACTERS:aladdin, horse, sultan, princess, wife, beauty
 LOCATION:Palace
  Aladdin first summoned the genie to bring him fine clothes and a  splendid horse, and a retinue fit for the future son-in-law of the  Sultan; and then, with a train of slaves bearing magnificent presents  for the Princess, The Sultan set out for the Palace.The Sultan would have married him to his daughter at once; but Aladdin  asked him to wait until the next morning, when he hoped to have a Palace  worthy to receive his wife.
  The Sultan would have married him to his daughter at once; but Aladdin  asked him to wait until the next morning, when Aladdin hoped to have a Palace  worthy to receive his wife.Once again he summoned the genie to his aid, and commanded him to build  a Palace that in beauty and magnificence should surpass any that had  ever been built on the earth before.
