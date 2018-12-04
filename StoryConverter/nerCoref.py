@@ -47,7 +47,11 @@ def locationrecognision(para, dict):
 
 
 def getentity(storyList, nlp):
+    global time
+    global location
     for story in storyList:
+        time = "UNK"
+        location = "UNK"
         ER = []
 
         for para in story['pTokens']:
