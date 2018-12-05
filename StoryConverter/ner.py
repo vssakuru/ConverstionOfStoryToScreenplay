@@ -1,5 +1,6 @@
 from stanfordcorenlp import StanfordCoreNLP
 from nltk import sent_tokenize
+import string
 
 def tokenizeparagraphs(fileName):
     paragraphTokens = []
@@ -14,26 +15,36 @@ def tokenizeparagraphs(fileName):
 pronouns = ["he", "He", "she", "She"]
 
 def preprocessing(file, nlp):
-    story = ""
+    story = ''
     pTokens = tokenizeparagraphs(file)
     for index in range(len(pTokens)):
         if index == 0:
             p = nlp.coref(pTokens[0])
 
         else:
-            pTokens[index-1] = pTokens[index-1] + pTokens[index]
-            p = nlp.coref(pTokens[index-1])
+            tempToken = ''
+            tempToken = pTokens[index-1] + pTokens[index]
+            #print("*******"+str(pTokens[index-1]))
+            p = nlp.coref(tempToken)
         sentList = sent_tokenize(pTokens[index])
-        st = ""
+        st = ''
+        #print(p)
         for i in p:
+            #print("i="+str(i))
             for index2 in range(1, len(i)):
                 if i[index2][3] in pronouns:
-                    if i[index2][0]-1 < len(sentList):
-                        sent = sentList[i[index2][0]-1]
-                        sentList[i[index2][0] - 1] = sent.replace(" "+i[index2][3]+" ", " "+i[0][3]+" ")
+                    #print("---pronoun detected---"+str(i[index2][3]))
+                    if (i[index2][0]-1) < len(sentList):
+                        #print("Before --- "+str(sentList))
+                        sent = sentList[((i[index2][0])-1)]
+                        #print(sent)
+                        #print(i[index2][3])
+                        #print(i[0][3])
+                        sentList[(i[index2][0]-1)] = string.replace(sent," "+str(i[index2][3])+" ", " "+str(i[0][3])+" ")
+                        #print(("After ---"+str(sentList)))
         for sent in sentList:
-            st = st +" "+ sent
-        pTokens[index] = st
+            st = st + sent
+        pTokens[index] = st+'\n'
     # for tok in pTokens:
     #     story += tok
     # print(story)

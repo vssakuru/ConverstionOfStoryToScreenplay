@@ -27,8 +27,8 @@ def startsWith(token):
                 return True
     return False
 
-# nlp = StanfordCoreNLP('http://localhost',port=9000, timeout=100000)
-nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
+nlp = StanfordCoreNLP('http://localhost',port=9000, timeout=100000)
+#nlp = StanfordCoreNLP(r'/home/sai/stanford-corenlp-full-2018-10-05', quiet=True, timeout=100000)
 path = './Data/Train/*.txt'
 #print("file path detected")
 files = glob.glob(path)
@@ -43,13 +43,14 @@ for file in files:
         dict = {'file': file, 'pTokens': story}
         storyList.append(dict)
 
-#print("NER coref")
 erStory = nerCoref.getentity(storyList, nlp)
 nlp.close()
 
 for story in erStory:
     paragraphTokens = story['pTokens']
-    print(story)
+    #for i in range(0,len(paragraphTokens)):
+     #   print(i)
+     # print(paragraphTokens[i])
     ##detecting entities for each paragraph
     listER = story['Entities']
     characters = []
@@ -62,12 +63,12 @@ for story in erStory:
     scene = ""
     for i in range(0, len(paragraphTokens)):
         token = paragraphTokens[i]
-        print('i=' + str(i))
-        print(paragraphTokens[i])
-        print(listER[i])
+        #print('i=' + str(i))
+        #print(paragraphTokens[i])
+        #print(listER[i])
         if i == 0:
             scene = token
-            # print(scene)
+            #print("Cond i =0")
         elif (startsWith(token)):
             time = listER[i-1]['TIME']
             location = listER[i-1]['LOCATION']
@@ -76,8 +77,10 @@ for story in erStory:
             scenes.append(scene)
             characters = []
             scene = token
+            #print("cond starts with met")
         elif token.startswith("\""):
             scene = scene + token
+            #print("cond \" ")
         elif listER[i]['LOCATION'] != listER[i - 1]['LOCATION'] or listER[i]['TIME'] != listER[i - 1]['TIME'] and \
                 listER[i]['TIME'] != 'UNK':
             time = listER[i-1]['TIME']
@@ -87,20 +90,29 @@ for story in erStory:
             scenes.append(scene)
             characters = []
             scene = token
+            #print("cond location time change")
         else:
             scene = scene + token
+            #print("No cond met")
             # print(scene)
+
         tempchars = listER[i]['NAME']
-        for i in range(0, len(tempchars)):
-            if tempchars[i] not in characters:
-                characters.append(tempchars[i])
-        if i == len(paragraphTokens)-1:
+        for j in range(0, len(tempchars)):
+            if tempchars[j] not in characters:
+                characters.append(tempchars[j])
+
+        if i == (len(paragraphTokens)-1):
+            #print("i=len of tokens---last scene"+scene)
             time = listER[i-1]['TIME']
             location = listER[i-1]['LOCATION']
             dict = {'chars':characters, 'time':time, 'location':location}
             entities.append(dict)
             scenes.append(scene)
 
+    #for i in range(0,len(scenes)):
+    #    print(scenes[i])
+
+    #print("\nNo of scenes "+str(len(scenes)))
 
 
     #scenes.append(scene)
