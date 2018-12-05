@@ -14,7 +14,7 @@ LOCATION:Carabas
  "Sire, here is a rabbit, which my master, the Marquis of Carabas, desires me to present to your Majesty.""Tell your master," said the King, "that I accept his present, and am very much obliged to him."
 
 ----SCENE----
-CHARACTERS:cat, king, marquis, messenger
+CHARACTERS:king, cat, marquis, messenger
 LOCATION:Carabas
  "Tell your master," said the King, "that I accept his present, and am very much obliged to him."A few days later, the Cat went and hid himself in a cornfield and laid his bag open as before. This time two splendid partridges were lured into the trap, and these also he took to the Palace and presented to the King from the Marquis of Carabas. The King was very pleased with this gift, and ordered the messenger of the Marquis of Carabas to be handsomely rewarded.
 
@@ -24,10 +24,14 @@ LOCATION:Carabas
  A few days later, the Cat went and hid himself in a cornfield and laid his bag open as before. This time two splendid partridges were lured into the trap, and these also he took to the Palace and presented to the King from the Marquis of Carabas. The King was very pleased with this gift, and ordered the messenger of the Marquis of Carabas to be handsomely rewarded.For two or three months the Cat went on in this way, carrying game every day to the Palace, and saying it was sent by the Marquis of Carabas.
 
 ----SCENE----
-CHARACTERS:cat, marquis, king, river, princess, miller, coach
+CHARACTERS:cat, marquis, king, river, princess
 LOCATION:Palace
  For two or three months the Cat went on in this way, carrying game every day to the Palace, and saying it was sent by the Marquis of Carabas.At last the Cat happened to hear that the King was going to take a drive on the banks of the river, with his daughter, the most beautiful Princess in the world. He at once went to his master.
  At last the Cat happened to hear that the King was going to take a drive on the banks of the river, with his daughter, the most beautiful Princess in the world. He at once went to his master."Master," said he, "if you follow my advice, your fortune will be made. Go and bathe in the river at a place I shall show you, and I will do the rest."
+
+----SCENE----
+CHARACTERS:river, miller, cat, king, coach
+LOCATION:Master
  "Master," said he, "if you follow my advice, your fortune will be made. Go and bathe in the river at a place I shall show you, and I will do the rest.""Very well," said the Miller's son, and he did as the Cat told him. When he was in the water, the Cat took away his clothes and hid them, and then ran to the road, just as the King's coach went by, calling out as loudly as he could--
  "Very well," said the Miller's son, and he did as the Cat told him. When he was in the water, the Cat took away his clothes and hid them, and then ran to the road, just as the King's coach went by, calling out as loudly as he could--"Help, help! The Marquis of Carabas will be drowned."
 

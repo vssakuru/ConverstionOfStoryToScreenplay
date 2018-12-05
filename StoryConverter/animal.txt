@@ -23,6 +23,7 @@ frog
 giraffe
 goat
 goldfish
+hen
 hamster
 hippopotamus
 horse
@@ -46,6 +47,7 @@ snail
 snake
 spider
 squirrel
+swan
 tiger
 turtle
 wolf
@@ -81,9 +83,7 @@ Troll
 Vampire
 Vanguard
 Visionary
-Witch
-
-alligator
+Witchalligator
 ant
 bear
 bee
@@ -108,6 +108,7 @@ frog
 giraffe
 goat
 goldfish
+hen
 hamster
 hippopotamus
 horse
@@ -131,6 +132,7 @@ snail
 snake
 spider
 squirrel
+swan
 tiger
 turtle
 wolf
@@ -167,4 +169,3 @@ vampire
 vanguard
 visionary
 witch
-

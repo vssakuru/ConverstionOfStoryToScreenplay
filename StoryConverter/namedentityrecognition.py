@@ -57,6 +57,12 @@ def locationrecognision(para, dict):
     dict.update(LOCATION=location)
 
 
+def formatePara(para):
+    str = ""
+    for sent in para:
+        if not sent.startswith("\""):
+            str += sent
+    return str
 
 def getentity(storyList, nlp):
     global time
@@ -67,7 +73,7 @@ def getentity(storyList, nlp):
         ER = []
 
         for para in story['pTokens']:
-
+            para = formatePara(para)
             dict = {}
             ner = nlp.ner(para)
             nameentityrecognision(ner, dict)

@@ -1,6 +1,6 @@
 import glob
 import os
-import nerCoref
+import namedentityrecognition
 import ner
 from stanfordcorenlp import StanfordCoreNLP
 
@@ -44,7 +44,7 @@ for file in files:
         storyList.append(dict)
 
 #print("NER coref")
-erStory = nerCoref.getentity(storyList, nlp)
+erStory = namedentityrecognition.getentity(storyList, nlp)
 nlp.close()
 
 for story in erStory:

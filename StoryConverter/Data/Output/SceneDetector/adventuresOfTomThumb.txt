@@ -26,11 +26,15 @@ CHARACTERS:father, mother, wife, husband
 LOCATION:UNK
  But at first they were afraid to go in, and waited outside the door to  hear what their parents were talking about.Now, it happened that when the father and mother reached home, they  found a rich gentleman had sent them ten crowns, in payment for work  which had been done long before. The wife went out at once and bought  bread and meat, and she and her husband sat down to make a hearty meal.  But the mother could not forget her little ones; and at last she cried  to her husband:
  Now, it happened that when the father and mother reached home, they  found a rich gentleman had sent them ten crowns, in payment for work  which had been done long before. The wife went out at once and bought  bread and meat, and they and her husband sat down to make a hearty meal. But the mother could not forget her little ones; and at last they cried  to her husband:"Alas! where are our poor children? How they would have enjoyed this  good feast!"
+
+----SCENE----
+CHARACTERS:mother
+LOCATION:Alas
  "Alas! where are our poor children? How they would have enjoyed this  good feast!"The children, listening at the door, heard this and cried out, "Here we  are, mother; here we are!" and, overjoyed, the mother flew to let them  in and kissed them all round.
 
 ----SCENE----
 CHARACTERS:mother, tom, thumb, father, brothers
-LOCATION:UNK
+LOCATION:Alas
  The children, listening at the door, heard this and cried out, "Here we  are, mother; here we are!" and, overjoyed, the mother flew to let them  in and kissed them all round.Their parents were delighted to have their little ones with them again;  but soon the ten crowns were spent, and they found themselves as badly  off as before. Once more they agreed to leave the children in the  forest, and once again Tom Thumb overheard them. This time he did not  trouble himself very much; he thought it would be easy for him to do as  he had done before. He got up very early the next morning to go and get  the pebbles; but, to his dismay, he found the house door securely  locked. Then, indeed, he did not know what to do, and for a little while  he was in great distress. However, at breakfast the mother gave each of  the children a slice of bread, and Tom Thumb thought he would manage to  make his piece of bread do as well as the pebbles, by breaking it up and  dropping the crumbs as he went.
  Their parents were delighted to have their little ones with them again;  but soon the ten crowns were spent, and they found themselves as badly  off as before. Once more they agreed to leave the children in the  forest, and once again Tom Thumb overheard them. This time he did not  trouble himself very much; he thought it would be easy for him to do as  he had done before. He got up very early the next morning to go and get  the pebbles; but, to his dismay, Tom Thumb found the house door securely  locked. Then, indeed, Tom Thumb did not know what to do, and for a little while  Tom Thumb was in great distress. However, at breakfast the mother gave each of  the children a slice of bread, and Tom Thumb thought Tom Thumb would manage to  make his piece of bread do as well as the pebbles, by breaking it up and  dropping the crumbs as Tom Thumb went.This time the father and mother took the children still deeper and  farther into the wood, and then, slipping away, left them alone.
  This time the father and mother took the children still deeper and  farther into the wood, and then, slipping away, left them alone.Tom Thumb consoled his brothers as before; but when he came to look for  the crumbs of bread, not one of them was left. The birds had eaten them  all up, and the poor children were lost in the forest, with no possible  means of finding their way home.
@@ -38,7 +42,7 @@ LOCATION:UNK
 
 ----SCENE----
 CHARACTERS:tom, thumb, brothers, ogre, wife, husband
-LOCATION:UNK
+LOCATION:Alas
  Tom Thumb did not lose courage. He climbed to the top of a high tree and  looked round to see if there was any way of getting help. In the  distance he saw a light burning, and, coming down from the tree, he led  his brothers toward the house from which it came.When they knocked at the door, it was opened by a pleasant-looking  woman, and Tom Thumb told her they were poor children who had lost their  road, and begged her to give them a night's shelter.
  When they knocked at the door, it was opened by a pleasant-looking  woman, and Tom Thumb told her they were poor children who had lost their  road, and begged her to give them a night's shelter."Alas, my poor children!" said the woman, "you do not know where you  have come to. This is the house of an ogre who eats up little boys and  girls."
  "Alas, my poor children!" said the woman, "you do not know where you  have come to. This is the house of an ogre who eats up little boys and  girls.""But, madam," replied Tom Thumb, "what shall we do? If we go back to the  forest we are certain to be torn to pieces by the wolves. We had better,  I think, stay and be eaten by the ogre."
@@ -52,30 +56,34 @@ LOCATION:UNK
 
 ----SCENE----
 CHARACTERS:ogre, wife
-LOCATION:UNK
+LOCATION:Alas
  He fetched a huge knife and began sharpening it, while the poor boys  fell on their knees and begged for mercy. But their prayers and  entreaties were useless. The ogre seized one of the children and was  just about to kill him, when his wife said--"What in the world makes you take the trouble of killing them to-night?  Why don't you leave them till the morning? There will be plenty of time,  and they will be much fresher."
 
 ----SCENE----
-CHARACTERS:ogre
-LOCATION:UNK
- "What in the world makes you take the trouble of killing them to-night? Why don't you leave them till the morning? There will be plenty of time,  and they will be much fresher.""That is very true," said the ogre, throwing down the knife. "Give them  a good supper, so that they may not get lean, and send them to bed."
-
-----SCENE----
 CHARACTERS:ogre, tom, thumb, brothers, wife
-LOCATION:UNK
+LOCATION:Alas
+ "What in the world makes you take the trouble of killing them to-night? Why don't you leave them till the morning? There will be plenty of time,  and they will be much fresher.""That is very true," said the ogre, throwing down the knife. "Give them  a good supper, so that they may not get lean, and send them to bed."
  "That is very true," said the ogre, throwing down the knife. "Give them  a good supper, so that they may not get lean, and send them to bed."Now, the ogre had seven young daughters, who were all about the same age  as Tom Thumb and his brothers. These young ogresses all slept together  in one large bed, and every one of them had a crown of gold on her head.  There was another bed of the same size in the room, and in this the  ogre's wife, having provided them all with nightcaps, put the seven  little boys.
 
 ----SCENE----
 CHARACTERS:ogre, tom, thumb, brothers, wife
-LOCATION:UNK
+LOCATION:Alas
  Now, the ogre had seven young daughters, who were all about the same age  as Tom Thumb and his brothers. These young ogresses all slept together  in one large bed, and every one of them had a crown of gold on her head. There was another bed of the same size in the room, and in this the  ogre's wife, having provided them all with nightcaps, put the seven  little boys.But Tom Thumb was afraid that the ogre might change his mind in the  night, and kill him and his brothers while they were asleep. So he crept  softly out of bed, took off his brothers' nightcaps and his own, and  stole over to the bed where the young ogresses lay. He drew off their  crowns very gently, and put the nightcaps on their heads instead. Then  he put the crowns on his brothers' heads and his own, and got into bed  again.
 
 ----SCENE----
-CHARACTERS:tom, thumb, ogre, brothers, wife, father
-LOCATION:UNK
+CHARACTERS:tom, thumb, ogre, brothers
+LOCATION:Alas
  But Tom Thumb was afraid that the ogre might change his mind in the  night, and kill him and his brothers while they were asleep. So he crept  softly out of bed, took off his brothers' nightcaps and his own, and  stole over to the bed where the young ogresses lay. He drew off their  crowns very gently, and put the nightcaps on their heads instead. Then  the ogre put the crowns on his brothers' heads and his own, and got into bed  again.In the middle of the night the ogre woke up, and began to be sorry that  he had put off killing the boys until the morning.
+
+----SCENE----
+CHARACTERS:ogre, tom, thumb
+LOCATION:Alas
  In the middle of the night the ogre woke up, and began to be sorry that  he had put off killing the boys until the morning."Never put off till to-morrow what you can do to-day," he said; and,  jumping out of bed, he got his knife and walked stealthily to the room  where the boys were. He walked up to the bed, and they were all asleep  except Tom Thumb, who, however, kept his eyes fast shut, and did not  show that he was awake. The ogre touched their heads, one after another,  and feeling the crowns of gold, he said to himself:
  "Never put off till to-morrow what you can do to-day," the ogre said; and,  jumping out of bed, the ogre got his knife and walked stealthily to the room  where the boys were. He walked up to the bed, and they were all asleep  except Tom Thumb, who, however, kept his eyes fast shut, and did not  show that the ogre was awake. The ogre touched their heads, one after another,  and feeling the crowns of gold, the ogre said to himself:"What a mistake I was going to make!" He then went to bed where his own  daughters were sleeping, and, feeling the nightcaps, he said:
+
+----SCENE----
+CHARACTERS:tom, thumb, brothers, ogre, wife, father
+LOCATION:Alas
  "What a mistake I was going to make!" He then went to bed where his own  daughters were sleeping, and, feeling the nightcaps, he said:"Oh, ho, here you are, my lads!" and in a moment he had killed them all.  He then went back to his own room to sleep till morning.
  "Oh, ho, here you are, my lads!" and in a moment He had killed them all. He then went back to his own room to sleep till morning.As soon as Tom Thumb heard him snoring, he roused his brothers, and told  them to dress quickly and follow him. He led them downstairs and out of  the house; and then, stealing on tiptoe through the garden, they jumped  down from the wall into the road and ran swiftly away.
  As soon as Tom Thumb heard him snoring, he roused his brothers, and told  them to dress quickly and follow him. He led them downstairs and out of  the house; and then, stealing on tiptoe through the garden, they jumped  down from the wall into the road and ran swiftly away.In the morning, when the ogre found what a dreadful thing he had done,  he was terribly shocked.

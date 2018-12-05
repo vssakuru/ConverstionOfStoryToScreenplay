@@ -34,11 +34,15 @@ LOCATION:UNK
  In the morning, after eating a hearty breakfast, which The Merchant found prepared  for him, The Merchant left the mysterious castle, without having set eyes on a  single person. As The Merchant was passing through the garden The Merchant found himself in  an avenue of rose-trees, all covered with beautiful red roses."Here are such thousands of flowers," he said to himself, "that, surely,  one bud will not be missed;" and, thinking of Beauty, he broke off a  rose from one of the bushes.
  "Here are such thousands of flowers," he said to himself, "that, surely,  one bud will not be missed;" and, thinking of Beauty, he broke off a  rose from one of the bushes.Scarcely had he done so when he heard a terrible noise, and, turning  round, he saw coming towards him a hideous Beast, who exclaimed in an  awful tone:
  Scarcely had he done so when he heard a terrible noise, and, turning  round, he saw coming towards him a hideous Beast, who exclaimed in an  awful tone:"Ungrateful wretch! You have partaken of my hospitality, have eaten of  my food, have slept in my house, and in return you try to rob me of my  roses. For this theft you shall die!"
+
+----SCENE----
+CHARACTERS:merchant, beast
+LOCATION:Ungrateful
  "Ungrateful wretch! You have partaken of my hospitality, have eaten of  my food, have slept in my house, and in return you try to rob me of my  roses. For this theft you shall die!"The Merchant fell on his knees and begged for pardon, but the Beast  would not listen to him.
 
 ----SCENE----
 CHARACTERS:merchant, beast, beauty, father
-LOCATION:UNK
+LOCATION:Ungrateful
  The Merchant fell on his knees and begged for pardon, but the Beast  would not listen to him."Either you must die now, or else you must swear to send me in your  stead the first living thing that meets you on your return home," he  said; and the Merchant, overcome with terror, and thinking that one of  his dogs would be sure to be the first creature to greet him, gave his  promise.
  "Either you must die now, or else you must swear to send me in your  stead the first living thing that meets you on your return home," he  said; and the Merchant, overcome with terror, and thinking that one of  his dogs would be sure to be the first creature to greet him, gave his  promise.But to his horror and dismay, it was his youngest daughter, Beauty, who  first ran out to greet him on his return. She had seen him coming from  afar, and hastened to welcome him home.
  But to his horror and dismay, it was his youngest daughter, Beauty, who  first ran out to greet him on his return. She had seen him coming from  afar, and hastened to welcome him home.She did not at first understand her father's grief at seeing her; but  when he told her the story of the Beast and his promise she did her  best to comfort him.
@@ -47,7 +51,7 @@ LOCATION:UNK
 
 ----SCENE----
 CHARACTERS:father, beast, beauty
-LOCATION:UNK
+LOCATION:Ungrateful
  Her father shook his head mournfully; but there was no help for it. He  had promised to send the Beast the first living creature that met him  on his return, so he was obliged to send Beauty herself in his place.When he left Beauty at the palace of the Beast she found everything  prepared for her comfort and convenience. A beautiful bedchamber was  ready for her use; the rooms were filled with everything that she could  possibly want, and in the great hall of the castle a table was set with  every delicacy. And everywhere there were bowls full of red roses. No  servants were visible; but there was no lack of service, for invisible  hands waited upon her and attended to her every want. She had but to  wish, and whatever she wanted was at once placed before her.
  When he left Beauty at the palace of the Beast she found everything  prepared for her comfort and convenience. A beautiful bedchamber was  ready for her use; the rooms were filled with everything that herself could  possibly want, and in the great hall of the castle a table was set with  every delicacy. And everywhere there were bowls full of red roses. No  servants were visible; but there was no lack of service, for invisible  hands waited upon her and attended to her every want. She had but to  wish, and whatever she wanted was at once placed before her.Beauty was filled with astonishment at all this luxury and magnificence.
 
@@ -64,13 +68,13 @@ LOCATION:Castle
  Then Beauty begged him to let her go and visit her father. The Beast was  very unwilling to grant her request."If I let you go, I am afraid you will never come back to me," he said,  "and then I shall die of grief."
 
 ----SCENE----
-CHARACTERS:beauty, beast
+CHARACTERS:beast, beauty
 LOCATION:Castle
  "If I let you go, I am afraid you will never come back to me," he said,  "and then I shall die of grief."Beauty promised most earnestly to come back to him if he would only  allow her to spend a few days with her family; and at last the Beast  yielded to her entreaties.
  Beauty promised most earnestly to come back to him if he would only  allow her to spend a few days with her family; and at last the Beast  yielded to her entreaties.He gave her a ring, saying:
 
 ----SCENE----
-CHARACTERS:father, beauty, sisters, sister, beast
+CHARACTERS:father, sisters, sister, beauty, beast
 LOCATION:Castle
  He gave her a ring, saying:"Put this on your little finger when you go to bed to-night, and wish;  and in the morning you will find yourself at home in your father's  house. But if you do not return to me at the end of a week, I shall  die of sorrow."
  "Put this on your little finger when you go to bed to-night, and wish;  and in the morning you will find yourself at home in your father's  house. But if you do not return to me at the end of a week, I shall  die of sorrow."Beauty's father was almost overcome with joy at seeing his daughter  again, and he was delighted to hear of her happiness and good fortune.  But her two sisters--who in the meantime had married--were more jealous  than ever of their beautiful sister. They were not very happy with their  husbands, who were poor and not over-lovable; and they were very envious  of Beauty's clothes and of all the luxuries with which she told them she  was surrounded. They tried to think of a plan by which they could  prevent their sister from enjoying her good fortune.
