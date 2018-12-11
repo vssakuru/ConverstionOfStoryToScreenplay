@@ -1,7 +1,7 @@
 from stanfordcorenlp import StanfordCoreNLP
 from nltk import ne_chunk, Tree
 from nltk import pos_tag
-from nltk import word_tokenize
+from nltk import word_tokenize, sent_tokenize
 
 
 charglobal = []
@@ -22,6 +22,7 @@ def nameentityrecognision(ner, dict):
     relations = ['mother','Mother','father','Father','brother', 'Brother', 'sisters', 'Sisters','sister','Sister',
                  'brothers', 'Brothers', 'wife', 'husband', 'grandmother','Grandmother']
     char = []
+    #isSetTime = False
     dict.update({'NAME': []})
     dict.update({'TIME': 'UNK'})
     for tuple in ner:
@@ -33,6 +34,7 @@ def nameentityrecognision(ner, dict):
                 # NAME.append(tuple[0])
         elif tuple[1] == 'TIME' or tuple[1] == 'DATE' or tuple[1] == 'SET' or tuple[1] == 'DURATION':
             time = tuple[0]
+            #isSetTime = True
             # TIME.append(tuple[0])
         dict.update(TIME=time)
         dict.update(NAME=char)
@@ -59,6 +61,7 @@ def locationrecognision(para, dict):
 
 def formatePara(para):
     str = ""
+    para = sent_tokenize(para)
     for sent in para:
         if not sent.startswith("\""):
             str += sent

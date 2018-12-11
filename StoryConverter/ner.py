@@ -20,10 +20,13 @@ def preprocessing(file, nlp):
     for index in range(len(pTokens)):
         if index == 0:
             p = nlp.coref(pTokens[0])
-
+        elif index == 1:
+            p = nlp.coref(pTokens[0]+pTokens[1])
+        elif index == 2:
+            p = nlp.coref(pTokens[0] + pTokens[1] + pTokens[2])
         else:
             tempToken = ''
-            tempToken = pTokens[index-1] + pTokens[index]
+            tempToken = pTokens[index-2] + pTokens[index-1] + pTokens[index]
             #print("*******"+str(pTokens[index-1]))
             p = nlp.coref(tempToken)
         sentList = sent_tokenize(pTokens[index])
